@@ -1,0 +1,17 @@
+div {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin: 500px auto;
+    border-radius: 15px;
+    transform-origin: bottom left;
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+}
+
+
+
+div:hover {
+    transform: rotateZ(90deg) scale(1.5, 1.5);
+}
+
